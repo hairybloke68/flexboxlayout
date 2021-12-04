@@ -18,15 +18,24 @@ header {
 
 #logo {
     display: inline-flex;
-    width: 50px;
-    height: auto;
+}
+
+header img {
+    height: 50px;
+    width: auto;
     padding-left: 10px;
 }
 
 #top-menu {
     display: inline-flex;
+    height: 69px;
 }
 
 .link {
     text-decoration: underline;
+}
+
+nav a {
+    margin: auto 10px;
+    padding: auto 10px;
 }
