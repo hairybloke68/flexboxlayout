@@ -6,3 +6,27 @@ html {
     opacity: 0.9;
     text-align: center;
 }
+
+header {
+    position: fixed;
+    display: flex;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+}
+
+#logo {
+    display: inline-flex;
+    width: 50px;
+    height: auto;
+    padding-left: 10px;
+}
+
+#top-menu {
+    display: inline-flex;
+}
+
+.link {
+    text-decoration: underline;
+}
