@@ -14,6 +14,8 @@ header {
     width: 100%;
     border-bottom: 1px solid seashell;
     justify-content: space-between;
+    z-index: 5;
+    background-color: black;
 }
 
 #logo {
@@ -24,6 +26,7 @@ header img {
     height: 50px;
     width: auto;
     padding-left: 10px;
+    z-index: 5;
 }
 
 #top-menu {
@@ -42,6 +45,7 @@ nav a {
 .flex-container {
     display: flex;
     justify-content: space-around;
+    align-content: space-around;
 }
 
 main {
@@ -51,14 +55,34 @@ main {
     background-size: cover;
     height: 700px;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
   
 }
 
 #center-text {
     background-color: black;
     border: 1px solid black;
-    align-items: center;
-    z-index: 2;
-    height: auto;
+    align-items: space-around;
+    height: 140px;
+    width: 1200px;
+}
+
+#mid-section {
+    position: relative;
+    top: 70px;
+
+}
+
+#gallery {
+    position: relative;
+    top: 70px;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+.gallery-image img{
+    
+    width: 300px;
+    height: 200px;
 }
