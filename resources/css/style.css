@@ -78,7 +78,7 @@ main {
     top: 70px;
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
+    min-width: 1000px;
     justify-content: space-around;
 }
 
@@ -91,12 +91,13 @@ main {
 #lower-section {
     position: relative;
     top: 70px;
-    width: 1200px;
-    height: 500px;
+    min-width: 1200px;
+    min-height: 500px;
     background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
     background-size: cover;
     flex-flow: column;
     margin-top: 20px;
+    justify-content: center;
 }
 
 #addresses {
